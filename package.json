@@ -1,0 +1,35 @@
+{
+  "name": "responsive-table",
+  "description": "Web Developer interview task for Avast",
+  "version": "1.0.0",
+  "author": "Gabor Bencsik <hello@gaborbencsik.me>",
+  "dependencies": {
+    "gatsby": "^2.19.12",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-resolve-src": "^2.0.0",
+    "gatsby-plugin-sass": "^2.1.28",
+    "gatsby-source-filesystem": "^2.1.48",
+    "node-sass": "^4.13.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "gatsby",
+    "sass",
+    "scss"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "yarn develop",
+    "serve": "gatsby serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaaabor/responsive-table"
+  }
+}

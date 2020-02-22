@@ -1,0 +1,67 @@
+@import 'abstract/__abstract';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-primary;
+  color: $color-extra-dark;
+  line-height: 1.5rem;
+}
+
+.link,
+.link:link,
+.link:visited {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+}
+
+h2 {
+  font-size: 2.875rem;
+  line-height: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+h4 {
+  font-size: 1.625rem;
+  line-height: 2.5rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+h6 {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: $heading-mb-lg;
+}
+
+h5,
+h6 {
+  margin-bottom: $heading-mb-sm;
+}
+
+@import 'components/__components';
+@import 'pages/__pages';

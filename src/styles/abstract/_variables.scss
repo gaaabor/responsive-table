@@ -1,0 +1,56 @@
+////////////////////////////////////////////////////
+// FONT IMPORT
+////////////////////////////////////////////////////
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap");
+////////////////////////////////////////////////////
+// COLOR VARIABLES
+////////////////////////////////////////////////////
+$color-avast: #ff7800;
+$color-extra-dark: #0c053e;
+$color-plum: #261c6a;
+$color-purple: #4e22d0;
+$color-violet: #7055ff;
+$color-violet-light: #e2dcff;
+$color-white: #ffffff;
+$color-avast-hover: #ff6900;
+$color-purple-alt: #3a1f9e;
+$color-bg-shadow: #08042b;
+$color-bg: #160e53;
+$color-main: #593aff;
+$color-aqua: #11dfef;
+$color-status-critical: #ff4672;
+$color-status-attention: #fadb4b;
+$color-status-ok: #43ed9c;
+$color-grey-80: #514988;
+$color-grey-60: #7d77a6;
+$color-grey-50: #928db4;
+$color-grey-40: #a8a4c3;
+$color-grey-20: #d4d2e6;
+$color-grey-15: #dfddeb;
+$color-grey-10: #e9e8f3;
+$color-grey-05: #f4f3fa;
+$color-grey-03: #f8f8fc;
+$color-avast-gradient: linear-gradient(
+  90deg,
+  rgba(230, 85, 0, 1) 0%,
+  rgba(255, 160, 38, 1) 100%
+);
+$color-gradient-main: linear-gradient(
+  90deg,
+  $color-extra-dark 0%,
+  $color-plum 100%
+);
+$color-gradient-secondary: linear-gradient(
+  90deg,
+  $color-plum 0%,
+  $color-purple 100%
+);
+////////////////////////////////////////////////////
+// FONT VARIABLES
+////////////////////////////////////////////////////
+$font-primary: "Open Sans", sans-serif;
+////////////////////////////////////////////////////
+// TYPOGRAPHY VARIABLES
+////////////////////////////////////////////////////
+$heading-mb-lg: 24px;
+$heading-mb-sm: 16px;

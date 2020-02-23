@@ -12,6 +12,7 @@ const IndexPage = () => {
       <Container>
         <Table />
       </Container>
+      <div id="placeholder" style={{ height: '100px' }} />
     </Layout>
   )
 }

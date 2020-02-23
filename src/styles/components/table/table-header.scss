@@ -1,27 +1,32 @@
 .table-header {
   display: flex;
+  background-color: $color-white;
 
   &__heading-wrapper {
-    @include flexCenter;
-    flex-basis: $table-w-left;
-    padding: 20px;
-  }
-
-  &__heading {
-    color: green;
-
-    @include respond(md) {
-      color: red;
-    }
+    display: none;
 
     @include respond(lg) {
-      color: blue;
-    }
-
-    @include respond(xl) {
-      color: yellow;
+      @include flexCenter;
+      flex-basis: $table-w-left;
+      padding: 9px; //! TEMP
     }
   }
+
+  // &__heading {
+  //   color: green;
+
+  //   @include respond(md) {
+  //     color: red;
+  //   }
+
+  //   @include respond(lg) {
+  //     color: blue;
+  //   }
+
+  //   @include respond(xl) {
+  //     color: yellow;
+  //   }
+  // }
 
   &__items {
     flex-basis: $table-w-right;
@@ -29,8 +34,8 @@
   }
 
   &__item {
-    max-width: calc(100% / 4);
-    flex-basis: calc(100% / 4);
+    width: 25%;
+    flex-basis: 25%;
     display: flex;
     flex-direction: column;
     padding: 50px 30px;
@@ -99,6 +104,34 @@
       top: 0;
       left: 50%;
       transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.table-header--sticky {
+  box-shadow: $box-shadow-basic;
+
+  .table-header {
+    &__heading-wrapper {
+      @include respond(lg) {
+        padding: 30px;
+      }
+    }
+
+    &__heading {
+      font-size: 2.5rem;
+    }
+
+    &__item-img {
+      display: none;
+    }
+  }
+
+  .recommended {
+    border: none !important;
+
+    &::before {
+      display: none !important;
     }
   }
 }

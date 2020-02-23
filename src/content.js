@@ -12,6 +12,7 @@ export const content = {
           image: 'placeholder',
           price: 'Free',
           ctaText: 'Learn more',
+          ctaStickyText: 'Free download',
           recommended: false,
         },
         {
@@ -22,6 +23,7 @@ export const content = {
           image: 'placeholder',
           price: '69.99',
           ctaText: 'Learn more',
+          ctaStickyText: 'Buy now',
           recommended: true,
         },
         {
@@ -32,6 +34,7 @@ export const content = {
           image: 'placeholder',
           price: '89.99',
           ctaText: 'Learn more',
+          ctaStickyText: 'Buy now',
           recommended: false,
         },
         {
@@ -42,6 +45,7 @@ export const content = {
           image: 'placeholder',
           price: '99.99',
           ctaText: 'Learn more',
+          ctaStickyText: 'Buy now',
           recommended: false,
         },
       ],
@@ -152,6 +156,35 @@ export const content = {
           description:
             'Detect viruses, ransomware, and other threats in real-time',
           availability: [false, false, false, true],
+        },
+      ],
+    },
+    footer: {
+      disclaimer: '* Anti-spam is available as a separate, free download',
+      ctaItems: [
+        {
+          id: 1,
+          primary: 'Free download',
+          secondary: null,
+          text: 'Free forever',
+        },
+        {
+          id: 2,
+          primary: 'Buy now',
+          secondary: 'Try for 30 days',
+          text: null,
+        },
+        {
+          id: 3,
+          primary: 'Buy now',
+          secondary: 'Try for 30 days on PC',
+          text: null,
+        },
+        {
+          id: 4,
+          primary: 'Buy now',
+          secondary: null,
+          text: null,
         },
       ],
     },

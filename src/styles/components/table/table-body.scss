@@ -8,15 +8,38 @@
       content: ' ';
       width: 100%;
       height: 1px;
-      background-color: green;
+      background-color: $color-grey-20;
       position: absolute;
       bottom: 0;
+      left: 0;
     }
   }
 
   &__item-content {
     flex-basis: $table-w-left;
     padding: 20px 10px;
+    position: relative;
+  }
+
+  &__item-info {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+  }
+
+  &__item-tooltip {
+    background-color: $color-bg !important;
+  }
+
+  // Tooltip arrow color
+  .__react_component_tooltip.type-dark.place-top:after {
+    border-top-color: $color-bg !important;
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
   }
 
   &__item-availability {
@@ -24,8 +47,8 @@
     display: flex;
 
     & > * {
-      max-width: calc(100% / 4);
-      flex-basis: calc(100% / 4);
+      width: 25%;
+      flex-basis: 25%;
     }
   }
 

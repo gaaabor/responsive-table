@@ -5,7 +5,7 @@ import Button from '@components/Button'
 
 import imgPlaceholder from '@assets/images/placeholder.png'
 
-const TableHeaderItem = ({ item }) => (
+const TableHeaderItem = ({ item, isSticky }) => (
   <div
     className={`table-header__item ${item.recommended ? 'recommended' : ''}`}
   >
@@ -28,7 +28,10 @@ const TableHeaderItem = ({ item }) => (
         {item.price}
       </span>
     )}
-    <Button text={item.ctaText} type="ghost" />
+    <Button
+      text={isSticky ? item.ctaStickyText : item.ctaText}
+      type={isSticky ? 'primary' : 'ghost'}
+    />
   </div>
 )
 

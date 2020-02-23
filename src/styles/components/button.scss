@@ -2,25 +2,26 @@
   text-transform: uppercase;
   text-decoration: none;
   display: inline-flex;
-
+  font-weight: 700;
+  font-size: 14px;
   transition: background-color 0.4s ease 0s;
 
   &--primary {
-    padding: 20px;
+    padding: 10px 20px;
     border: none;
     border-radius: 50px;
     color: $color-white !important;
     background-color: $color-avast;
+    box-shadow: $box-shadow-basic;
 
     &:hover {
       background-color: $color-avast-hover;
+      box-shadow: $box-shadow-hover;
     }
   }
 
   &--ghost {
     color: $color-grey-50;
-    font-weight: 700;
-    font-size: 14px;
     padding: 0;
     border-bottom: 2px solid $color-grey-50;
 

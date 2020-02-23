@@ -1,0 +1,31 @@
+.table-footer {
+  display: flex;
+
+  &__disclaimer {
+    flex-basis: $table-w-left;
+  }
+
+  &__cta-wrapper {
+    flex-basis: $table-w-right;
+    display: flex;
+  }
+
+  &__cta-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    flex-basis: 25%;
+    padding: 40px 0;
+
+    a:first-of-type {
+      margin-bottom: 30px;
+    }
+
+    &--recommended {
+      border: $recommended-border;
+      border-top: none;
+    }
+  }
+}

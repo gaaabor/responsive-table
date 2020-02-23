@@ -1,6 +1,10 @@
 import { useState, useEffect } from 'react'
 
-const getWindowDimensions = () => {
+function getWindowDimensions() {
+  if (typeof window === 'undefined') {
+    return { width: 0, height: 0 }
+  }
+
   const { innerWidth: width, innerHeight: height } = window
   return {
     width,
@@ -8,26 +12,21 @@ const getWindowDimensions = () => {
   }
 }
 
-const useWindowDimensions = () => {
+export default function useWindowDimensions() {
   const [windowDimensions, setWindowDimensions] = useState(
     getWindowDimensions()
   )
 
   useEffect(() => {
-    const handleResize = () => {
+    function handleResize() {
       setWindowDimensions(getWindowDimensions())
     }
 
-    window.addEventListener('resize', handleResize)
-    return () => window.removeEventListener('resize', handleResize)
+    if (typeof window !== 'undefined') {
+      window.addEventListener('resize', handleResize)
+      return () => window.removeEventListener('resize', handleResize)
+    }
   }, [])
 
-  let isDesktop = windowDimensions.width > 960
-
-  return {
-    windowDimensions,
-    isDesktop,
-  }
+  return windowDimensions
 }
-
-export default useWindowDimensions

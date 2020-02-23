@@ -1,5 +1,9 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-cross" viewBox="0 0 32 32">
+<title>cross</title>
+<path d="M18.382 16l13.125-13.125c0.658-0.658 0.658-1.724 0-2.382s-1.724-0.658-2.382 0l-13.125 13.125-13.125-13.125c-0.658-0.658-1.724-0.658-2.382 0s-0.658 1.724 0 2.382l13.125 13.125-13.125 13.125c-0.658 0.658-0.658 1.724 0 2.382s1.724 0.658 2.382 0l13.125-13.125 13.125 13.125c0.658 0.658 1.724 0.658 2.382 0s0.658-1.724 0-2.382l-13.125-13.125z"></path>
+</symbol>
 <symbol id="icon-back-s" viewBox="0 0 32 32">
 <title>back-s</title>
 <path fill="none" stroke="#4e22d0" style="stroke: var(--color1, #4e22d0)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M20 4l-12 12 12 12"></path>

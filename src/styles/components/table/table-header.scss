@@ -3,12 +3,28 @@
 
   &__heading-wrapper {
     @include flexCenter;
-    flex-basis: 25%;
+    flex-basis: $table-w-left;
     padding: 20px;
   }
 
+  &__heading {
+    color: green;
+
+    @include respond(md) {
+      color: red;
+    }
+
+    @include respond(lg) {
+      color: blue;
+    }
+
+    @include respond(xl) {
+      color: yellow;
+    }
+  }
+
   &__items {
-    flex-basis: 75%;
+    flex-basis: $table-w-right;
     display: flex;
   }
 
@@ -42,7 +58,7 @@
   }
 
   &__item-price {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
     position: relative;
     margin-bottom: 30px;
@@ -66,7 +82,7 @@
   }
 
   .recommended {
-    border: 2px solid $color-avast;
+    border: $recommended-border;
     border-bottom: none;
 
     &::before {

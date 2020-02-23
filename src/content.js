@@ -46,5 +46,114 @@ export const content = {
         },
       ],
     },
+    body: {
+      items: [
+        {
+          id: 1,
+          title: 'Block viruses and other malware',
+          description:
+            'Detect viruses, ransomware, and other threats in real-time',
+          availability: [true, true, true, true],
+        },
+        {
+          id: 2,
+          title: 'Block viruses and other malware',
+          description:
+            'Detect viruses, ransomware, and other threats in real-time',
+          availability: [true, true, true, true],
+        },
+        {
+          id: 3,
+          title: 'Block viruses and other malware',
+          description:
+            'Detect viruses, ransomware, and other threats in real-time',
+          availability: [true, true, true, true],
+        },
+        {
+          id: 4,
+          title: 'Block viruses and other malware',
+          description:
+            'Detect viruses, ransomware, and other threats in real-time',
+          availability: [false, true, true, true],
+        },
+        {
+          id: 5,
+          title: 'Block viruses and other malware',
+          description:
+            'Detect viruses, ransomware, and other threats in real-time',
+          availability: [false, true, true, true],
+        },
+        {
+          id: 6,
+          title: 'Block viruses and other malware',
+          description:
+            'Detect viruses, ransomware, and other threats in real-time',
+          availability: [false, true, true, true],
+        },
+        {
+          id: 7,
+          title: 'Block viruses and other malware',
+          description:
+            'Detect viruses, ransomware, and other threats in real-time',
+          availability: [false, false, false, true],
+        },
+        {
+          id: 8,
+          title: 'Block viruses and other malware',
+          description:
+            'Detect viruses, ransomware, and other threats in real-time',
+          availability: [false, true, true, true],
+        },
+        {
+          id: 9,
+          title: 'Block viruses and other malware',
+          description:
+            'Detect viruses, ransomware, and other threats in real-time',
+          availability: [false, true, true, true],
+        },
+        {
+          id: 10,
+          title: 'Block viruses and other malware',
+          description:
+            'Detect viruses, ransomware, and other threats in real-time',
+          availability: [false, false, true, true],
+        },
+        {
+          id: 11,
+          title: 'Block viruses and other malware',
+          description:
+            'Detect viruses, ransomware, and other threats in real-time',
+          availability: [false, false, true, true],
+        },
+        {
+          id: 12,
+          title: 'Block viruses and other malware',
+          description:
+            'Detect viruses, ransomware, and other threats in real-time',
+          availability: [false, false, false, true],
+        },
+        {
+          id: 13,
+          title: 'Block viruses and other malware',
+          description:
+            'Detect viruses, ransomware, and other threats in real-time',
+          availability: [false, false, false, true],
+        },
+        {
+          id: 14,
+          title: 'Block viruses and other malware',
+          description:
+            'Detect viruses, ransomware, and other threats in real-time',
+          availability: [false, false, false, true],
+        },
+        {
+          id: 15,
+          title: 'Block viruses and other malware',
+          description:
+            'Detect viruses, ransomware, and other threats in real-time',
+          availability: [false, false, false, true],
+        },
+      ],
+    },
   },
 }

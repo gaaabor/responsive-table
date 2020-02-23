@@ -11,17 +11,17 @@
     }
   }
   @if $breakpoint==md {
-    @media (min-width: 600px) and (max-width: 959px) {
+    @media only screen and (min-width: 600px) {
       @content;
     }
   }
   @if $breakpoint==lg {
-    @media (min-width: 960px) and (max-width: 1159px) {
+    @media only screen and (min-width: 960px) {
       @content;
     }
   }
   @if $breakpoint==xl {
-    @media (min-width: 1200px) {
+    @media only screen and (min-width: 1200px) {
       @content;
     }
   }

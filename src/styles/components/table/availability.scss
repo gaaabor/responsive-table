@@ -1,0 +1,28 @@
+.availability {
+  &__item {
+    @include flexCenter;
+
+    &--available {
+      background-color: $color-grey-10;
+
+      .availability__icon {
+        width: 22px;
+        height: 22px;
+      }
+    }
+
+    &--unavailable {
+      .availability__icon {
+        width: 12px;
+        height: 12px;
+        fill: #a8a4c3;
+      }
+    }
+
+    &--recommended {
+      border: $recommended-border;
+      border-top: none;
+      border-bottom: none;
+    }
+  }
+}

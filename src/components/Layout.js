@@ -17,9 +17,7 @@ const Layout = ({ children }) => {
         <title>Responsive Table</title>
       </Helmet>
       <div id="app">
-        {/* <Header /> */}
         <main>{children}</main>
-        {/* <Footer /> */}
       </div>
     </>
   )

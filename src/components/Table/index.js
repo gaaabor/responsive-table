@@ -1,9 +1,15 @@
 import React from 'react'
 
+import { content } from '@content'
+
+import TableHeader from './TableHeader'
+
 const Table = () => {
+  const headerContent = content.table.header
+
   return (
-    <div>
-      <h1>I'm the Table</h1>
+    <div className="table">
+      <TableHeader data={headerContent} />
     </div>
   )
 }

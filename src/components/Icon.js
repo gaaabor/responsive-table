@@ -1,10 +1,10 @@
 import React from 'react'
 
-import sprite from '../assets/icons/icon-sprite.svg'
+import sprite from '@assets/icons/icons.svg'
 
-const Icon = props => (
-  <svg className={`${props.block}__icon icon`}>
-    <use xlinkHref={`${sprite}#icon-${props.name}`} />
+const Icon = ({ block, name }) => (
+  <svg className={`${block}__icon icon`}>
+    <use xlinkHref={`${sprite}#icon-${name}`} />
   </svg>
 )
 

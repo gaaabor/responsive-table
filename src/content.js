@@ -1,0 +1,50 @@
+export const content = {
+  stickyBar: 'placeholder content',
+  table: {
+    header: {
+      heading: 'Your protection, your way',
+      items: [
+        {
+          id: 1,
+          icon: 'free',
+          title: 'Free Antivirus',
+          subtitle: null,
+          image: 'placeholder',
+          price: 'Free',
+          ctaText: 'Learn more',
+          recommended: false,
+        },
+        {
+          id: 2,
+          icon: 'premium',
+          title: 'Premium Security',
+          subtitle: 'Single-Device',
+          image: 'placeholder',
+          price: '69.99',
+          ctaText: 'Learn more',
+          recommended: true,
+        },
+        {
+          id: 3,
+          icon: 'premium',
+          title: 'Premium Security',
+          subtitle: 'Multi-Device',
+          image: 'placeholder',
+          price: '89.99',
+          ctaText: 'Learn more',
+          recommended: false,
+        },
+        {
+          id: 4,
+          icon: 'ultimate',
+          title: 'Ultimate',
+          subtitle: null,
+          image: 'placeholder',
+          price: '99.99',
+          ctaText: 'Learn more',
+          recommended: false,
+        },
+      ],
+    },
+  },
+}

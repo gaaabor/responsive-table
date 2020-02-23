@@ -1,0 +1,32 @@
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-flex;
+
+  transition: background-color 0.4s ease 0s;
+
+  &--primary {
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    color: $color-white !important;
+    background-color: $color-avast;
+
+    &:hover {
+      background-color: $color-avast-hover;
+    }
+  }
+
+  &--ghost {
+    color: $color-grey-50;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0;
+    border-bottom: 2px solid $color-grey-50;
+
+    &:hover {
+      color: $color-grey-80;
+      border-bottom-color: $color-grey-80;
+    }
+  }
+}

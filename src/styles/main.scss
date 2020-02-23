@@ -1,4 +1,4 @@
-@import 'abstract/__abstract';
+@import 'abstract/abstract';
 
 *,
 *::before,
@@ -63,5 +63,10 @@ h6 {
   margin-bottom: $heading-mb-sm;
 }
 
-@import 'components/__components';
-@import 'pages/__pages';
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+@import 'components/components';
+@import 'pages/pages';

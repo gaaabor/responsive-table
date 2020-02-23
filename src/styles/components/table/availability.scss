@@ -20,9 +20,13 @@
     }
 
     &--recommended {
-      border: $recommended-border;
-      border-top: none;
-      border-bottom: none;
+      padding: 15px 0;
+      @include respond(lg) {
+        padding: 0;
+        border: $recommended-border;
+        border-top: none;
+        border-bottom: none;
+      }
     }
   }
 }

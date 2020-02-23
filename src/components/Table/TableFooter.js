@@ -13,7 +13,9 @@ const TableFooter = ({ data, recommendedColumn }) => {
           : 'table-footer__cta-item'
       }
     >
-      {item.primary && <Button type="primary" text={item.primary} />}
+      {item.primary && (
+        <Button type="primary" text={item.primary} icon={item.icon} />
+      )}
       {item.secondary && <Button type="ghost" text={item.secondary} />}
       {item.text && <p>{item.text}</p>}
     </div>

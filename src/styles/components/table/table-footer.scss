@@ -2,30 +2,54 @@
   display: flex;
 
   &__disclaimer {
+    display: none;
     flex-basis: $table-w-left;
+    padding: 10px;
+
+    @include respond(lg) {
+      @include flexCenter;
+    }
   }
 
   &__cta-wrapper {
-    flex-basis: $table-w-right;
     display: flex;
+    width: 100%;
+    flex-basis: 100%;
+
+    @include respond(lg) {
+      flex-basis: $table-w-right;
+    }
   }
 
   &__cta-item {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     width: 25%;
     flex-basis: 25%;
     padding: 40px 0;
 
+    @include respond(lg) {
+      justify-content: space-between;
+    }
+
+    svg {
+      fill: $color-white;
+    }
+
     a:first-of-type {
-      margin-bottom: 30px;
+      margin-bottom: 10px;
+
+      @include respond(lg) {
+        margin-bottom: 30px;
+      }
     }
 
     &--recommended {
-      border: $recommended-border;
-      border-top: none;
+      @include respond(lg) {
+        border: $recommended-border;
+        border-top: none;
+      }
     }
   }
 }

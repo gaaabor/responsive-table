@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import svg4everybody from 'svg4everybody'
 
 import '../styles/main.scss'
 
@@ -8,6 +9,8 @@ import '../styles/main.scss'
 // import Footer from 'components/Footer'
 
 const Layout = ({ children }) => {
+  svg4everybody()
+
   return (
     <>
       <Helmet>

@@ -29,8 +29,10 @@ const TableHeaderItem = ({ item, isSticky }) => (
       </span>
     )}
     <Button
+      className="table-header__item-cta"
       text={isSticky ? item.ctaStickyText : item.ctaText}
       type={isSticky ? 'primary' : 'ghost'}
+      icon={item.ctaIcon}
     />
   </div>
 )

@@ -1,5 +1,13 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-download" viewBox="0 0 32 32">
+<title>download</title>
+<path d="M16 28l-10.667-12h8v-16h5.333v16h8l-10.667 12zM28 26.667v2.667h-24v-2.667h-2.667v5.333h29.333v-5.333h-2.667z"></path>
+</symbol>
+<symbol id="icon-cart" viewBox="0 0 32 32">
+<title>cart</title>
+<path d="M13.333 26c0 1.105-0.896 2-2 2s-2-0.895-2-2c0-1.104 0.896-2 2-2s2 0.896 2 2zM18 24c-1.104 0-2 0.895-2 2s0.896 2 2 2 2-0.895 2-2c0-1.104-0.896-2-2-2zM19.781 17.333l2.636-9.333h-22.417l3.917 9.333h15.864zM26.407 4l-4.576 16h-16.796l1.119 2.667h17.652l4.632-16h2.572l0.991-2.667h-5.593z"></path>
+</symbol>
 <symbol id="icon-cross" viewBox="0 0 32 32">
 <title>cross</title>
 <path d="M18.382 16l13.125-13.125c0.658-0.658 0.658-1.724 0-2.382s-1.724-0.658-2.382 0l-13.125 13.125-13.125-13.125c-0.658-0.658-1.724-0.658-2.382 0s-0.658 1.724 0 2.382l13.125 13.125-13.125 13.125c-0.658 0.658-0.658 1.724 0 2.382s1.724 0.658 2.382 0l13.125-13.125 13.125 13.125c0.658 0.658 1.724 0.658 2.382 0s0.658-1.724 0-2.382l-13.125-13.125z"></path>

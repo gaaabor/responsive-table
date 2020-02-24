@@ -33,7 +33,7 @@ const TableBodyItem = ({ item, recommendedColumn }) => {
           className="table-body__item-tooltip"
           effect="solid"
         >
-          <span>Show happy face</span>
+          <span>Tooltip text for testing</span>
         </ReactTooltip>
       </div>
       <div className="table-body__item-availability">
